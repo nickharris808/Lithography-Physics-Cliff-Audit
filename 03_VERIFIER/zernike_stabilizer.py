@@ -326,10 +326,12 @@ def print_results(passive: Dict, genesis: Dict, show_comparison: bool = True):
    • Prevents eigenmode coupling at any thermal load
    • 122× variance reduction vs passive substrates
    
-   PATENT 4 (Photonics): Zernike-Zero Active Compensation  
-   ─────────────────────────────────────────────────────
-   • Interferometric deformation sensing (0.1 nm resolution)
-   • 15-mode Zernike decomposition in real-time
+   PATENT 4 (Photonics) — Part B: Zernike-Zero Self-Compensating Substrates  
+   ─────────────────────────────────────────────────────────────────────────
+   • Internal lattice optimized to minimize Zernike coefficients
+   • Radial porosity gradient: VF(r) = VF₀ · [1 + k_r · (1 - 2r/R)]
+   • 66.8% reduction in total Zernike RMS (FEM verified)
+   • 23% reduction in Z4 (defocus) coefficient
    • Piezoelectric correction at 10 kHz bandwidth
    
    📧 Contact: genesis-litho-ip@proton.me

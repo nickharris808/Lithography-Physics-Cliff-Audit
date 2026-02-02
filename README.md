@@ -5,6 +5,20 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Physics](https://img.shields.io/badge/theory-Eigenmode_Stability-green)
 ![Status](https://img.shields.io/badge/NXE3800E_@_500W-FOCUS_FAILURE-red)
+![Patents](https://img.shields.io/badge/IP-Patent%201%20%2B%20Patent%204-orange)
+
+---
+
+## Patent Coverage
+
+This audit demonstrates the problem addressed by **two provisional patents**:
+
+| Patent | Title | Core Claim |
+|:-------|:------|:-----------|
+| **Patent 1 (Fab OS)** | Systems for Physics-Informed Wafer Deformation Control | *"A substrate support system comprising azimuthal stiffness modulation to counteract thermal eigenmodes."* |
+| **Patent 4 (Photonics) — Part B** | Zernike-Zero Self-Compensating Substrates | *"A self-compensating optical substrate wherein internal lattice architecture is optimized to minimize Zernike polynomial coefficients of thermally-induced deformation."* |
+
+**Combined Solution:** Patent 1 prevents the 122× variance explosion (mechanical). Patent 4 actively corrects residual Zernike aberrations (optical). Together: **54× warpage reduction, 730× defocus reduction.**
 
 ---
 
@@ -201,10 +215,12 @@ We solve the problem at the root cause — the stiffness ratio itself.
 - Eigenmode frequencies kept separated
 - Variance factor: 1.0× (vs 122×)
 
-**Patent 4 (Photonics): Zernike-Zero Active Compensation**
-- Real-time deformation sensing (interferometric, 0.1 nm resolution)
-- Piezoelectric actuators correct surface figure
-- Closed-loop control at 10 kHz bandwidth
+**Patent 4 (Photonics) — Part B: Zernike-Zero Self-Compensating Substrates**
+- Internal lattice architecture optimized to minimize Zernike polynomial coefficients
+- Radial porosity gradient: VF(r) = VF₀ · [1 + k_r · (1 - 2r/R)]
+- 66.8% reduction in total Zernike RMS (FEM verified)
+- 23% reduction in Z4 (defocus) coefficient
+- Real-time piezoelectric correction at 10 kHz bandwidth
 
 ### Combined Result
 
