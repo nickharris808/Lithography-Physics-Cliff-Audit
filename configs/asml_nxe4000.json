@@ -1,0 +1,15 @@
+{
+  "machine_name": "ASML TWINSCAN NXE:4000 (Projected)",
+  "type": "Hyper-NA EUV",
+  "numerical_aperture": 0.70,
+  "wavelength_nm": 13.5,
+  "depth_of_focus_nm": 28,
+  "focus_budget_nm": 12,
+  "overlay_budget_nm": 0.8,
+  "thermal_load_watts": 750,
+  "substrate_type": "ULE Glass (Corning 7972)",
+  "resolution_nm": 5,
+  "machine_cost_usd": 500000000,
+  "throughput_wph": 200,
+  "notes": "Next-gen Hyper-NA. Focus budget is IMPOSSIBLE with passive substrates."
+}

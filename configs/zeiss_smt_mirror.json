@@ -1,0 +1,12 @@
+{
+  "component_name": "Zeiss SMT EUV Mirror Assembly",
+  "type": "Projection Optics Box (POB)",
+  "mirror_count": 6,
+  "surface_form_tolerance_nm": 0.1,
+  "thermal_load_per_mirror_watts": 50,
+  "total_thermal_load_watts": 300,
+  "substrate_type": "Zerodur (Schott)",
+  "cte_ppb_per_k": 50,
+  "cooling_method": "Active Water Channels",
+  "notes": "Mirrors warp under EUV absorption. Focus shifts are cumulative through 6-mirror stack."
+}

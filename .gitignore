@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (regenerated)
+results/*.json
+results/*.txt
+
+# Proprietary (should never be committed)
+03_VERIFIER/*.so
+03_VERIFIER/*.dll
+03_VERIFIER/genesis_*
+*.key
+credentials.json
+.env

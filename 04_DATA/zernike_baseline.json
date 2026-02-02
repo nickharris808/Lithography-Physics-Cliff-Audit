@@ -1,0 +1,39 @@
+{
+  "_description": "Zernike polynomial coefficients for STANDARD passive substrate under 500W thermal load",
+  "_machine": "ASML TWINSCAN NXE:3800E (High-NA 0.55)",
+  "_load_watts": 500,
+  "_substrate": "ULE Glass (Corning 7972)",
+  
+  "coefficients_meters": {
+    "Z1_piston": 7.23e-06,
+    "Z2_tilt_x": 1.60e-07,
+    "Z3_tilt_y": -2.23e-07,
+    "Z4_defocus": -3.65e-07,
+    "Z5_astigmatism_45": 5.26e-08,
+    "Z6_astigmatism_0": -1.14e-07,
+    "Z7_coma_x": -1.09e-07,
+    "Z8_coma_y": 1.44e-08,
+    "Z9_spherical": -7.97e-07,
+    "Z10_trefoil_x": 3.99e-08,
+    "Z11_trefoil_y": -2.39e-07,
+    "Z12_secondary_astig_45": -9.07e-09,
+    "Z13_secondary_astig_0": -8.70e-09,
+    "Z14_secondary_coma_x": 3.52e-09,
+    "Z15_secondary_coma_y": 6.76e-08
+  },
+  
+  "summary": {
+    "rms_wavefront_error_nm": 7.29,
+    "peak_to_valley_nm": 43.2,
+    "defocus_Z4_nm": -365,
+    "strehl_ratio": 0.34,
+    "status": "CRITICAL_FAILURE"
+  },
+  
+  "focus_analysis": {
+    "focus_budget_nm": 20,
+    "induced_defocus_nm": 43,
+    "margin_nm": -23,
+    "verdict": "EXCEEDS BUDGET BY 2.15×"
+  }
+}

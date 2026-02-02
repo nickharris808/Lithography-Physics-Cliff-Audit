@@ -1,0 +1,4 @@
+k_azi,variance_factor,warpage_nm,status,notes
+0.50,1.0,164.9,STABLE,Baseline (Validated Case robust_mc_024)
+0.80,5.0,368.7,WARNING,Pre-critical growth
+0.82,122.0,1821.5,CRITICAL_FAIL,THE CLIFF (122x Variance Explosion)

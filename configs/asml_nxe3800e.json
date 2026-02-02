@@ -1,0 +1,15 @@
+{
+  "machine_name": "ASML TWINSCAN NXE:3800E",
+  "type": "High-NA EUV",
+  "numerical_aperture": 0.55,
+  "wavelength_nm": 13.5,
+  "depth_of_focus_nm": 45,
+  "focus_budget_nm": 20,
+  "overlay_budget_nm": 1.4,
+  "thermal_load_watts": 500,
+  "substrate_type": "ULE Glass (Corning 7972)",
+  "resolution_nm": 8,
+  "machine_cost_usd": 350000000,
+  "throughput_wph": 185,
+  "notes": "Current generation High-NA. Focus budget is CRITICAL."
+}
