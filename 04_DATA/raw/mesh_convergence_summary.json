@@ -1,0 +1,39 @@
+{
+  "mesh_convergence_study": {
+    "status": "INCOMPLETE",
+    "reason": "N=400 OOM (52M nodes), N=150 shell elements issue",
+    "current_baseline": "N=100",
+    "baseline_W_pv_nm": 1967.7,
+    "convergence_trend": "NOT CONVERGED (still increasing at N=100)",
+    "data_points": [
+      {
+        "n_radial": 30,
+        "W_pv_nm": 761.9
+      },
+      {
+        "n_radial": 40,
+        "W_pv_nm": 1053.3
+      },
+      {
+        "n_radial": 50,
+        "W_pv_nm": 1287.9
+      },
+      {
+        "n_radial": 70,
+        "W_pv_nm": 1591.7
+      },
+      {
+        "n_radial": 100,
+        "W_pv_nm": 1967.7
+      }
+    ],
+    "analysis": {
+      "N30_to_N40": "+38.2%",
+      "N40_to_N50": "+22.3%",
+      "N50_to_N70": "+23.6%",
+      "N70_to_N100": "+23.6%"
+    },
+    "implication": "True converged W_pv may be 20-40% higher than N=100 value",
+    "action_needed": "Run N=200 with C3D8 elements on larger machine"
+  }
+}

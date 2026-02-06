@@ -1,0 +1,202 @@
+[
+  {
+    "W_exposure_max_nm": 494.10200000000003,
+    "W_pv_nm": 896.638,
+    "node_count": 49604,
+    "case_id": "asym_dual_notch_k0p3",
+    "task_id": "f6wcqbzhn1ttvfwn6puaoq1c7",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_dual_notch_k0p3"
+  },
+  {
+    "W_exposure_max_nm": 588.736,
+    "W_pv_nm": 1033.29,
+    "node_count": 49604,
+    "case_id": "asym_dual_notch_k0p5",
+    "task_id": "jyevg6tb39fbgy61sh5dak1ki",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_dual_notch_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 635.2339999999999,
+    "W_pv_nm": 1248.1,
+    "node_count": 49604,
+    "case_id": "asym_dual_notch_k0p7",
+    "task_id": "8zgr089x3fd1a6gdggbohpt90",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_dual_notch_k0p7"
+  },
+  {
+    "W_exposure_max_nm": 937.56,
+    "W_pv_nm": 1719.682,
+    "node_count": 49604,
+    "case_id": "asym_dual_notch_k0p9",
+    "task_id": "mxw9vfzcmzk2iviou8xvad5dn",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_dual_notch_k0p9"
+  },
+  {
+    "W_exposure_max_nm": 1419.6699999999998,
+    "W_pv_nm": 2124.971,
+    "node_count": 49604,
+    "case_id": "asym_dual_notch_k1p0",
+    "task_id": "2frixa37ka847r8xfs285ait0",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_dual_notch_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 484.84799999999996,
+    "W_pv_nm": 920.995,
+    "node_count": 49604,
+    "case_id": "asym_quadrant_asym_k0p3",
+    "task_id": "6e0u8k777fufbcy4juz0x5ij4",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_quadrant_asym_k0p3"
+  },
+  {
+    "W_exposure_max_nm": 544.817,
+    "W_pv_nm": 984.912,
+    "node_count": 49604,
+    "case_id": "asym_quadrant_asym_k0p5",
+    "task_id": "kj0uofs8ykskgot6ko05e718i",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_quadrant_asym_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 591.936,
+    "W_pv_nm": 1179.773,
+    "node_count": 49604,
+    "case_id": "asym_quadrant_asym_k0p7",
+    "task_id": "t0144fyrcqyt5n47yo9ppetm1",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_quadrant_asym_k0p7"
+  },
+  {
+    "W_exposure_max_nm": 872.391,
+    "W_pv_nm": 1637.1899999999998,
+    "node_count": 49604,
+    "case_id": "asym_quadrant_asym_k0p9",
+    "task_id": "3mfqq3rh2gsmbmzqschz2iqxt",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_quadrant_asym_k0p9"
+  },
+  {
+    "W_exposure_max_nm": 1368.76,
+    "W_pv_nm": 2056.7360000000003,
+    "node_count": 49604,
+    "case_id": "asym_quadrant_asym_k1p0",
+    "task_id": "9av5hia8zcy3m4y035b4yxkqj",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_quadrant_asym_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 535.471,
+    "W_pv_nm": 1061.732,
+    "node_count": 49604,
+    "case_id": "asym_radial_gradient_k0p3",
+    "task_id": "hk293qb3hp3ooxn66z00gzsrv",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_radial_gradient_k0p3"
+  },
+  {
+    "W_exposure_max_nm": 613.296,
+    "W_pv_nm": 1223.649,
+    "node_count": 49604,
+    "case_id": "asym_radial_gradient_k0p5",
+    "task_id": "kg6jrj748vept7zbywvr78ius",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_radial_gradient_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 835.737,
+    "W_pv_nm": 1490.623,
+    "node_count": 49604,
+    "case_id": "asym_radial_gradient_k0p7",
+    "task_id": "az2cwnhb0ub4xdi4nxnw75eo0",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_radial_gradient_k0p7"
+  },
+  {
+    "W_exposure_max_nm": 1267.41,
+    "W_pv_nm": 2046.508,
+    "node_count": 49604,
+    "case_id": "asym_radial_gradient_k0p9",
+    "task_id": "mazb464pgs29y6sg8rqv8ijpz",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_radial_gradient_k0p9"
+  },
+  {
+    "W_exposure_max_nm": 1679.45,
+    "W_pv_nm": 2428.123,
+    "node_count": 49604,
+    "case_id": "asym_radial_gradient_k1p0",
+    "task_id": "36374o725g1y4ogduat9comxc",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_radial_gradient_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 494.568,
+    "W_pv_nm": 899.084,
+    "node_count": 49604,
+    "case_id": "asym_random_5pct_k0p3",
+    "task_id": "9hher2wk9ep1pud5zqti0szfr",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_random_5pct_k0p3"
+  },
+  {
+    "W_exposure_max_nm": 591.325,
+    "W_pv_nm": 1037.2879999999998,
+    "node_count": 49604,
+    "case_id": "asym_random_5pct_k0p5",
+    "task_id": "o46fmixjyyu521knuqs8owr62",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_random_5pct_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 637.6129999999999,
+    "W_pv_nm": 1253.001,
+    "node_count": 49604,
+    "case_id": "asym_random_5pct_k0p7",
+    "task_id": "drswahs5f99vhhid9pvgz13v0",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_random_5pct_k0p7"
+  },
+  {
+    "W_exposure_max_nm": 937.028,
+    "W_pv_nm": 1717.156,
+    "node_count": 49604,
+    "case_id": "asym_random_5pct_k0p9",
+    "task_id": "f1480ohjwr4x55psa6v8f6mor",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_random_5pct_k0p9"
+  },
+  {
+    "W_exposure_max_nm": 1401.9399999999998,
+    "W_pv_nm": 2101.819,
+    "node_count": 49604,
+    "case_id": "asym_random_5pct_k1p0",
+    "task_id": "txmrpunotf83yo71n18kdvrk3",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_random_5pct_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 494.097,
+    "W_pv_nm": 896.64,
+    "node_count": 49604,
+    "case_id": "asym_single_notch_k0p3",
+    "task_id": "c36igfa1bm97pnwowgd2nrc4i",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_single_notch_k0p3"
+  },
+  {
+    "W_exposure_max_nm": 588.7410000000001,
+    "W_pv_nm": 1033.3,
+    "node_count": 49604,
+    "case_id": "asym_single_notch_k0p5",
+    "task_id": "cys5jc4vz1ot4e0xjr3sikwsd",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_single_notch_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 635.2299999999999,
+    "W_pv_nm": 1248.2350000000001,
+    "node_count": 49604,
+    "case_id": "asym_single_notch_k0p7",
+    "task_id": "q1grs4vtbubku33vkyy0ftuxv",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_single_notch_k0p7"
+  },
+  {
+    "W_exposure_max_nm": 937.543,
+    "W_pv_nm": 1719.697,
+    "node_count": 49604,
+    "case_id": "asym_single_notch_k0p9",
+    "task_id": "dpn9e4tid2wt4479mo5svzvpa",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_single_notch_k0p9"
+  },
+  {
+    "W_exposure_max_nm": 1419.6200000000001,
+    "W_pv_nm": 2124.441,
+    "node_count": 49604,
+    "case_id": "asym_single_notch_k1p0",
+    "task_id": "h9mnbd79ry3wd1bq4580ywa01",
+    "case_dir": "cases/asymmetric_patterns_v2/asym_single_notch_k1p0"
+  }
+]

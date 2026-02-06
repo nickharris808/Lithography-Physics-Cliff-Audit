@@ -1,0 +1,152 @@
+[
+  {
+    "W_exposure_max_nm": 637.236,
+    "W_pv_nm": 1229.597,
+    "node_count": 17684,
+    "material": "inp",
+    "k_azi": 0.0,
+    "case_id": "mat_inp_k0p0",
+    "task_id": "7az0k44hjw6s95uqr4y9dvf85",
+    "case_dir": "work_dir/material_sweep/mat_inp_k0p0"
+  },
+  {
+    "W_exposure_max_nm": 747.71,
+    "W_pv_nm": 1441.7160000000001,
+    "node_count": 17684,
+    "material": "inp",
+    "k_azi": 0.5,
+    "case_id": "mat_inp_k0p5",
+    "task_id": "ak4d5iasta6n1to0v2i8hv5vc",
+    "case_dir": "work_dir/material_sweep/mat_inp_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 894.6229999999999,
+    "W_pv_nm": 1729.6989999999998,
+    "node_count": 17684,
+    "material": "inp",
+    "k_azi": 0.8,
+    "case_id": "mat_inp_k0p8",
+    "task_id": "e9z2n2hrfqmsj6xi8ts1geaog",
+    "case_dir": "work_dir/material_sweep/mat_inp_k0p8"
+  },
+  {
+    "W_exposure_max_nm": 2991.14,
+    "W_pv_nm": 3995.34,
+    "node_count": 17684,
+    "material": "inp",
+    "k_azi": 1.0,
+    "case_id": "mat_inp_k1p0",
+    "task_id": "rjw6hgyybbuw6dy465x2kd4n0",
+    "case_dir": "work_dir/material_sweep/mat_inp_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 814.849,
+    "W_pv_nm": 1563.028,
+    "node_count": 17684,
+    "material": "inp",
+    "k_azi": 1.5,
+    "case_id": "mat_inp_k1p5",
+    "task_id": "u9as93br9b2w66zfz203qbk3n",
+    "case_dir": "work_dir/material_sweep/mat_inp_k1p5"
+  },
+  {
+    "W_exposure_max_nm": 1134.34,
+    "W_pv_nm": 2093.6,
+    "node_count": 17684,
+    "material": "gan",
+    "k_azi": 0.0,
+    "case_id": "mat_gan_k0p0",
+    "task_id": "nji3hh3cft85grdhm012or9gk",
+    "case_dir": "work_dir/material_sweep/mat_gan_k0p0"
+  },
+  {
+    "W_exposure_max_nm": 1377.54,
+    "W_pv_nm": 2542.81,
+    "node_count": 17684,
+    "material": "gan",
+    "k_azi": 0.5,
+    "case_id": "mat_gan_k0p5",
+    "task_id": "bn92btv79g3u7vch0mttyj1n0",
+    "case_dir": "work_dir/material_sweep/mat_gan_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 1604.06,
+    "W_pv_nm": 3048.39,
+    "node_count": 17684,
+    "material": "gan",
+    "k_azi": 0.8,
+    "case_id": "mat_gan_k0p8",
+    "task_id": "9jmg8wvzphsfeypcoeh7oywhk",
+    "case_dir": "work_dir/material_sweep/mat_gan_k0p8"
+  },
+  {
+    "W_exposure_max_nm": 3123.69,
+    "W_pv_nm": 4758.53,
+    "node_count": 17684,
+    "material": "gan",
+    "k_azi": 1.0,
+    "case_id": "mat_gan_k1p0",
+    "task_id": "pu9e7iu09h179xfh7j2rhu8iw",
+    "case_dir": "work_dir/material_sweep/mat_gan_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 1401.81,
+    "W_pv_nm": 2794.97,
+    "node_count": 17684,
+    "material": "gan",
+    "k_azi": 1.5,
+    "case_id": "mat_gan_k1p5",
+    "task_id": "rydu12eosgi0xykau2svb02ux",
+    "case_dir": "work_dir/material_sweep/mat_gan_k1p5"
+  },
+  {
+    "W_exposure_max_nm": 1129.19,
+    "W_pv_nm": 2010.818,
+    "node_count": 17684,
+    "material": "aln",
+    "k_azi": 0.0,
+    "case_id": "mat_aln_k0p0",
+    "task_id": "cprjo5tbr3kq2ap91xe3krd49",
+    "case_dir": "work_dir/material_sweep/mat_aln_k0p0"
+  },
+  {
+    "W_exposure_max_nm": 1357.78,
+    "W_pv_nm": 2415.4800000000005,
+    "node_count": 17684,
+    "material": "aln",
+    "k_azi": 0.5,
+    "case_id": "mat_aln_k0p5",
+    "task_id": "54gd1t5q9cw2i82q31gzarny5",
+    "case_dir": "work_dir/material_sweep/mat_aln_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 1553.93,
+    "W_pv_nm": 2846.05,
+    "node_count": 17684,
+    "material": "aln",
+    "k_azi": 0.8,
+    "case_id": "mat_aln_k0p8",
+    "task_id": "fmk068snmqrnzcub5m6ewx02n",
+    "case_dir": "work_dir/material_sweep/mat_aln_k0p8"
+  },
+  {
+    "W_exposure_max_nm": 2670.5,
+    "W_pv_nm": 4158.2,
+    "node_count": 17684,
+    "material": "aln",
+    "k_azi": 1.0,
+    "case_id": "mat_aln_k1p0",
+    "task_id": "sywercvkjut2u1b50xytm6a9v",
+    "case_dir": "work_dir/material_sweep/mat_aln_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 1324.07,
+    "W_pv_nm": 2639.61,
+    "node_count": 17684,
+    "material": "aln",
+    "k_azi": 1.5,
+    "case_id": "mat_aln_k1p5",
+    "task_id": "b8o73z3n4dfbkfe4c0328xvof",
+    "case_dir": "work_dir/material_sweep/mat_aln_k1p5"
+  }
+]

@@ -17,7 +17,7 @@ However, the EUV source deposits 500+ Watts into the optical column. This causes
 2. Refractive index changes (dn/dT)
 3. Surface figure distortion (Zernike aberrations)
 
-The result: Focus shifts of >40nm are COMMON on passive substrates.
+The result: Focus shifts of 40-100nm are COMMON on passive substrates.
 
 This exceeds the focus budget by 2-5×. The image blurs. The chip fails.
 
@@ -319,23 +319,23 @@ def print_analysis_report(analysis: Dict):
         print("🔒 PROPRIETARY SOLUTION: GENESIS ZERNIKE-ZERO SUBSTRATE")
         print("="*80)
         print("""
-   PATENT PENDING (Fab OS): Azimuthal Stiffness Modulation
-   ───────────────────────────────────────────────────────
+   PATENT 1 (Fab OS): Azimuthal Stiffness Modulation
+   ──────────────────────────────────────────────────
    • Active mechanical damping cancels eigenmode coupling
    • k_azi maintained at 0.50 regardless of thermal load
    • Variance factor: 1.0× (vs 122× at cliff)
    
-   PATENT PENDING (Photonics): Zernike-Zero Active Compensation
-   ────────────────────────────────────────────────────────────
-   • Real-time deformation sensing (interferometric, 0.1 nm resolution)
+   PATENT 4 (Photonics): Zernike-Zero Active Compensation
+   ──────────────────────────────────────────────────────
+   • Real-time deformation sensing (0.1 nm resolution)
    • Piezo-actuated surface figure correction
    • Z4 defocus reduced from 43 nm → 0.8 nm
    
    COMBINED RESULT:
    ────────────────
    • Warpage: 43 nm → 0.8 nm (54× reduction)
-   • Strehl Ratio: 0.34 → 0.99
-   • Focus Margin: -23 nm → +19.5 nm
+   • Strehl Ratio: 0.34 → 0.98
+   • Focus Margin: -23 nm → +19.2 nm
    
    📧 Contact: genesis-litho-ip@proton.me
    📄 Data Room: Available under NDA
@@ -423,7 +423,7 @@ def main():
     print("\n" + "="*80)
     print("🔬 LITHOGRAPHY PHYSICS CLIFF AUDIT v1.0")
     print("   Focus Stability Analysis for High-NA EUV")
-    print("   Based on Eigenmode Stability Theory (Patent Pending)")
+    print("   Based on Eigenmode Stability Theory (Patent 1)")
     print("="*80)
     
     # Load configs

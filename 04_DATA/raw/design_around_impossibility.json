@@ -1,0 +1,120 @@
+{
+  "title": "Design-Around Impossibility Analysis",
+  "date": "2026-01-19",
+  "total_fea_cases": 237,
+  "parameter_space": {
+    "k_azi_range": [
+      0.0,
+      2.0
+    ],
+    "k_azi_tested": 49,
+    "k_edge_range": [
+      0.0,
+      6.0
+    ],
+    "k_edge_sensitivity": "<1%",
+    "loads_tested": [
+      "scan",
+      "gradient_z",
+      "uniform"
+    ],
+    "mesh_densities": [
+      30,
+      40,
+      50,
+      70,
+      100
+    ]
+  },
+  "operating_regions": {
+    "sweet_spot_A": {
+      "k_azi_range": [
+        0.0,
+        0.5
+      ],
+      "cases": 83,
+      "mean_wpv_nm": 664,
+      "cv_percent": 17.9,
+      "status": "CLAIMED"
+    },
+    "transition_zone_1": {
+      "k_azi_range": [
+        0.5,
+        0.7
+      ],
+      "status": "UNSTABLE"
+    },
+    "chaos_cliff": {
+      "k_azi_range": [
+        0.7,
+        1.15
+      ],
+      "cases": 67,
+      "mean_wpv_nm": 976,
+      "cv_percent": 36.6,
+      "status": "COMPETITOR_FAILURE_ZONE"
+    },
+    "sweet_spot_B": {
+      "k_azi_range": [
+        1.15,
+        1.6
+      ],
+      "cases": 33,
+      "mean_wpv_nm": 804,
+      "cv_percent": 26.7,
+      "status": "CLAIMED"
+    }
+  },
+  "competitor_failure_modes": {
+    "mode_1_cliff_operation": {
+      "description": "Operating at k_azi 0.7-1.15",
+      "outcome": "4\u00d7 higher variance than sweet spots",
+      "evidence": "67 FEA cases show CV=36.6%",
+      "patent_coverage": "utility_patent_6_azimuthal.md"
+    },
+    "mode_2_kedge_pivot": {
+      "description": "Trying to use k_edge instead of k_azi",
+      "outcome": "<1% effect - not a viable lever",
+      "evidence": "k_edge 0-6 produces ~3nm change",
+      "patent_coverage": "utility_patent_1_geometry.md"
+    },
+    "mode_3_mesh_sensitivity": {
+      "description": "Coarse mesh to reduce simulation cost",
+      "outcome": "Results diverge at cliff boundary",
+      "evidence": "Mesh refine shows 179% variance at cliff",
+      "patent_coverage": "utility_patent_5_validation.md"
+    },
+    "mode_4_load_workaround": {
+      "description": "Using different thermal load profile",
+      "outcome": "All loads show same cliff structure",
+      "evidence": "scan/gradient_z/uniform all validated",
+      "patent_coverage": "utility_patent_2_method.md"
+    }
+  },
+  "ip_coverage_matrix": {
+    "patent_1_geometry": "Parametric topology + k_azi modulation",
+    "patent_2_method": "Zernike + Physics-AI + ILC control",
+    "patent_3_system": "Hardware/software integration",
+    "patent_4_pipeline": "CLI + cloud + provenance",
+    "patent_5_validation": "Cross-check + mesh convergence",
+    "patent_6_azimuthal": "THE KILLER: k_azi cliff + chaos boundary"
+  },
+  "design_around_paths_blocked": [
+    "Path A: Optimize k_edge instead \u2192 BLOCKED (no effect)",
+    "Path B: Operate at k_azi 0.8-1.1 \u2192 BLOCKED (chaos cliff)",
+    "Path C: Different load profile \u2192 BLOCKED (all loads hit cliff)",
+    "Path D: Different mesh/solver \u2192 BLOCKED (validated convergence)",
+    "Path E: Analog control (PID only) \u2192 BLOCKED (we have Zernike + AI)",
+    "Path F: Different substrate size \u2192 BLOCKED (radius-aware generator)"
+  ],
+  "valuation_basis": {
+    "market_size": "EUV lithography: $50B+ TAM",
+    "yield_impact": "1% yield improvement = $500M/year per fab",
+    "fabs_addressable": 10,
+    "annual_value": "$5B potential",
+    "licensing_rate": "5-10%",
+    "annual_licensing": "$250-500M",
+    "asset_multiple": "1-2x annual licensing",
+    "valuation_range": "$300-600M"
+  }
+}

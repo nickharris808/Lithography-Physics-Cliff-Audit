@@ -1,0 +1,482 @@
+[
+  {
+    "case_id": "stack_si_bare_k0p3_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p3_scan",
+    "k_azi": 0.3,
+    "load": "scan",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "9hb10rcv5urohuo1m9etv0xgi",
+    "W_pv_nm": 829.137
+  },
+  {
+    "case_id": "stack_si_bare_k0p3_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p3_gradient_z",
+    "k_azi": 0.3,
+    "load": "gradient_z",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "tx7syk80309qgij8znwn6nj98",
+    "W_pv_nm": 812.4569999999999
+  },
+  {
+    "case_id": "stack_si_bare_k0p5_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p5_scan",
+    "k_azi": 0.5,
+    "load": "scan",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "qunh1j9v3m5nnr0o6441cn4mc",
+    "W_pv_nm": 921.1650000000001
+  },
+  {
+    "case_id": "stack_si_bare_k0p5_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p5_gradient_z",
+    "k_azi": 0.5,
+    "load": "gradient_z",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "rvdmq4cj12mn7hrinxigsyiqo",
+    "W_pv_nm": 904.205
+  },
+  {
+    "case_id": "stack_si_bare_k0p7_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p7_scan",
+    "k_azi": 0.7,
+    "load": "scan",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "fwbdo4pdrbp1t0uhtwgnpoie0",
+    "W_pv_nm": 981.8939999999999
+  },
+  {
+    "case_id": "stack_si_bare_k0p7_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p7_gradient_z",
+    "k_azi": 0.7,
+    "load": "gradient_z",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "b7fb74geryp09r6tosj9ekj5x",
+    "W_pv_nm": 961.0049999999999
+  },
+  {
+    "case_id": "stack_si_bare_k0p9_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p9_scan",
+    "k_azi": 0.9,
+    "load": "scan",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "7shq548ujb6p4vm7n50oduvwd",
+    "W_pv_nm": 1192.853
+  },
+  {
+    "case_id": "stack_si_bare_k0p9_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k0p9_gradient_z",
+    "k_azi": 0.9,
+    "load": "gradient_z",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "imnney8perizich8mry70voqt",
+    "W_pv_nm": 1167.2890000000002
+  },
+  {
+    "case_id": "stack_si_bare_k1p0_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k1p0_scan",
+    "k_azi": 1.0,
+    "load": "scan",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "3prn7u2yrguavp8729hdxgzn7",
+    "W_pv_nm": 1229.955
+  },
+  {
+    "case_id": "stack_si_bare_k1p0_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k1p0_gradient_z",
+    "k_azi": 1.0,
+    "load": "gradient_z",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "kwdjjnk4nktxzm30i6apf5d6w",
+    "W_pv_nm": 3016.703
+  },
+  {
+    "case_id": "stack_si_bare_k1p1_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k1p1_scan",
+    "k_azi": 1.1,
+    "load": "scan",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "0z4rmfif9b9g7edf94h30e0rg",
+    "W_pv_nm": 1056.7910000000002
+  },
+  {
+    "case_id": "stack_si_bare_k1p1_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_bare_k1p1_gradient_z",
+    "k_azi": 1.1,
+    "load": "gradient_z",
+    "stack": "si_bare",
+    "n_layers_stack": 1,
+    "task_id": "h616888joc7pt1a3doqrdrew2",
+    "W_pv_nm": 1106.204
+  },
+  {
+    "case_id": "stack_si_oxide_k0p3_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p3_scan",
+    "k_azi": 0.3,
+    "load": "scan",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "5dkq1oyov4wtmei76dqczx3a8",
+    "W_pv_nm": 829.137
+  },
+  {
+    "case_id": "stack_si_oxide_k0p3_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p3_gradient_z",
+    "k_azi": 0.3,
+    "load": "gradient_z",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "sdvff4uk3nv4rwtg3din9weuf",
+    "W_pv_nm": 812.4569999999999
+  },
+  {
+    "case_id": "stack_si_oxide_k0p5_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p5_scan",
+    "k_azi": 0.5,
+    "load": "scan",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "niv2o7arnr7samwpwrrygnm05",
+    "W_pv_nm": 921.1650000000001
+  },
+  {
+    "case_id": "stack_si_oxide_k0p5_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p5_gradient_z",
+    "k_azi": 0.5,
+    "load": "gradient_z",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "jofycmy3wpcy5rdn7hh9rniiw",
+    "W_pv_nm": 904.205
+  },
+  {
+    "case_id": "stack_si_oxide_k0p7_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p7_scan",
+    "k_azi": 0.7,
+    "load": "scan",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "tezvy0wu9b80fbqmvhx0ghiok",
+    "W_pv_nm": 981.8939999999999
+  },
+  {
+    "case_id": "stack_si_oxide_k0p7_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p7_gradient_z",
+    "k_azi": 0.7,
+    "load": "gradient_z",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "6cgfrz7dzugwxcf4uyfsrer1z",
+    "W_pv_nm": 961.0049999999999
+  },
+  {
+    "case_id": "stack_si_oxide_k0p9_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p9_scan",
+    "k_azi": 0.9,
+    "load": "scan",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "7hn49t33kby42fk1ifde81tc4",
+    "W_pv_nm": 1192.853
+  },
+  {
+    "case_id": "stack_si_oxide_k0p9_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k0p9_gradient_z",
+    "k_azi": 0.9,
+    "load": "gradient_z",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "c597t6q3xdeah8u9bb5mab3bb",
+    "W_pv_nm": 1167.2890000000002
+  },
+  {
+    "case_id": "stack_si_oxide_k1p0_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k1p0_scan",
+    "k_azi": 1.0,
+    "load": "scan",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "7qhkxp49rubx1jri58v9i6qn4",
+    "W_pv_nm": 1229.955
+  },
+  {
+    "case_id": "stack_si_oxide_k1p0_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k1p0_gradient_z",
+    "k_azi": 1.0,
+    "load": "gradient_z",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "2a9wqv9wg9bm1uwceeffutm2y",
+    "W_pv_nm": 3016.703
+  },
+  {
+    "case_id": "stack_si_oxide_k1p1_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k1p1_scan",
+    "k_azi": 1.1,
+    "load": "scan",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "9abgfo20m9ksyax8pwmm0843q",
+    "W_pv_nm": 1056.7910000000002
+  },
+  {
+    "case_id": "stack_si_oxide_k1p1_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_oxide_k1p1_gradient_z",
+    "k_azi": 1.1,
+    "load": "gradient_z",
+    "stack": "si_oxide",
+    "n_layers_stack": 2,
+    "task_id": "46y7p8poevvjumj70qzuc7p8k",
+    "W_pv_nm": 1106.204
+  },
+  {
+    "case_id": "stack_si_resist_k0p3_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p3_scan",
+    "k_azi": 0.3,
+    "load": "scan",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "3yzu04iu0tim89h5ssxdd7r8g",
+    "W_pv_nm": 829.137
+  },
+  {
+    "case_id": "stack_si_resist_k0p3_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p3_gradient_z",
+    "k_azi": 0.3,
+    "load": "gradient_z",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "e78xf4raecw7pk2hh43oxdrgj",
+    "W_pv_nm": 812.4569999999999
+  },
+  {
+    "case_id": "stack_si_resist_k0p5_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p5_scan",
+    "k_azi": 0.5,
+    "load": "scan",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "doizfbsv7m8ytwb4mbes1vie4",
+    "W_pv_nm": 921.1650000000001
+  },
+  {
+    "case_id": "stack_si_resist_k0p5_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p5_gradient_z",
+    "k_azi": 0.5,
+    "load": "gradient_z",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "cb0hjo57q4g8xaf7g5czttnfw",
+    "W_pv_nm": 904.205
+  },
+  {
+    "case_id": "stack_si_resist_k0p7_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p7_scan",
+    "k_azi": 0.7,
+    "load": "scan",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "6f8a9s0nfb02okaq4aftb80oq",
+    "W_pv_nm": 981.8939999999999
+  },
+  {
+    "case_id": "stack_si_resist_k0p7_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p7_gradient_z",
+    "k_azi": 0.7,
+    "load": "gradient_z",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "tb4120a75w95in7w9hsziatdg",
+    "W_pv_nm": 961.0049999999999
+  },
+  {
+    "case_id": "stack_si_resist_k0p9_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p9_scan",
+    "k_azi": 0.9,
+    "load": "scan",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "2912xrsouuj7pw0tqzd09oebe",
+    "W_pv_nm": 1192.853
+  },
+  {
+    "case_id": "stack_si_resist_k0p9_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k0p9_gradient_z",
+    "k_azi": 0.9,
+    "load": "gradient_z",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "sdgapy6wfo8r42a7m9vjsf59r",
+    "W_pv_nm": 1167.2890000000002
+  },
+  {
+    "case_id": "stack_si_resist_k1p0_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k1p0_scan",
+    "k_azi": 1.0,
+    "load": "scan",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "286t2ovo95edgeb8dvk1qc8qd",
+    "W_pv_nm": 1229.955
+  },
+  {
+    "case_id": "stack_si_resist_k1p0_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k1p0_gradient_z",
+    "k_azi": 1.0,
+    "load": "gradient_z",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "44vqeqn6wh60sygwpav7hguao",
+    "W_pv_nm": 3016.703
+  },
+  {
+    "case_id": "stack_si_resist_k1p1_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k1p1_scan",
+    "k_azi": 1.1,
+    "load": "scan",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "ch34qbhcrsg3w20eeayi0ztbv",
+    "W_pv_nm": 1056.7910000000002
+  },
+  {
+    "case_id": "stack_si_resist_k1p1_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_resist_k1p1_gradient_z",
+    "k_azi": 1.1,
+    "load": "gradient_z",
+    "stack": "si_resist",
+    "n_layers_stack": 2,
+    "task_id": "g8nohevrm6j1wvj3rf143tig2",
+    "W_pv_nm": 1106.204
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p3_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p3_scan",
+    "k_azi": 0.3,
+    "load": "scan",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "c1o7y7hvt5f9612z407puyrbu",
+    "W_pv_nm": 829.137
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p3_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p3_gradient_z",
+    "k_azi": 0.3,
+    "load": "gradient_z",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "6hz2oc60fbi9ibm1kj41auw16",
+    "W_pv_nm": 812.4569999999999
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p5_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p5_scan",
+    "k_azi": 0.5,
+    "load": "scan",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "uc7fobm8a1nkgzhhm0j3epkzr",
+    "W_pv_nm": 921.1650000000001
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p5_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p5_gradient_z",
+    "k_azi": 0.5,
+    "load": "gradient_z",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "83rs0jy4hpnoo3a010na30p9i",
+    "W_pv_nm": 904.205
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p7_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p7_scan",
+    "k_azi": 0.7,
+    "load": "scan",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "dz0qsti2v60jka2r1h33wdxy9",
+    "W_pv_nm": 981.8939999999999
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p7_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p7_gradient_z",
+    "k_azi": 0.7,
+    "load": "gradient_z",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "m9q0u6xo6gj0giuyjvytteo6c",
+    "W_pv_nm": 961.0049999999999
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p9_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p9_scan",
+    "k_azi": 0.9,
+    "load": "scan",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "2nvjoeqj7wpajjr95kcvxcyw0",
+    "W_pv_nm": 1192.853
+  },
+  {
+    "case_id": "stack_si_hardmask_k0p9_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k0p9_gradient_z",
+    "k_azi": 0.9,
+    "load": "gradient_z",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "s9im3a4fiuf0sms6kq26znpir",
+    "W_pv_nm": 1167.2890000000002
+  },
+  {
+    "case_id": "stack_si_hardmask_k1p0_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k1p0_scan",
+    "k_azi": 1.0,
+    "load": "scan",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "ed2d1dctw5x7qfiaod5rw76y9",
+    "W_pv_nm": 1229.955
+  },
+  {
+    "case_id": "stack_si_hardmask_k1p0_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k1p0_gradient_z",
+    "k_azi": 1.0,
+    "load": "gradient_z",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "nh0prqoooq3zkxx54qzkb7fcv",
+    "W_pv_nm": 3016.703
+  },
+  {
+    "case_id": "stack_si_hardmask_k1p1_scan",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k1p1_scan",
+    "k_azi": 1.1,
+    "load": "scan",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "5247dkqe5fp2a9w7g6q6snyq8",
+    "W_pv_nm": 1056.7910000000002
+  },
+  {
+    "case_id": "stack_si_hardmask_k1p1_gradient_z",
+    "case_dir": "work_dir/multilayer_stacks/stack_si_hardmask_k1p1_gradient_z",
+    "k_azi": 1.1,
+    "load": "gradient_z",
+    "stack": "si_hardmask",
+    "n_layers_stack": 2,
+    "task_id": "nbd3yrcd674w6xwqe4k8xrqz4",
+    "W_pv_nm": 1106.204
+  }
+]

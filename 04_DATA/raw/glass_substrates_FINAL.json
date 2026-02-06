@@ -1,0 +1,98 @@
+[
+  {
+    "case_id": "glass_glass_k0p3",
+    "k_azi": 0.3,
+    "W_pv_nm": 1072.039,
+    "W_exposure_max_nm": 876.372,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_k0p5",
+    "k_azi": 0.5,
+    "W_pv_nm": 1251.287,
+    "W_exposure_max_nm": 1005.61,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_k0p7",
+    "k_azi": 0.7,
+    "W_pv_nm": 1665.9119999999998,
+    "W_exposure_max_nm": 1303.39,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_k0p9",
+    "k_azi": 0.9,
+    "W_pv_nm": 5624.853,
+    "W_exposure_max_nm": 4656.7,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_k1p0",
+    "k_azi": 1.0,
+    "W_pv_nm": 48951.97,
+    "W_exposure_max_nm": 46602.4,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_k1p1",
+    "k_azi": 1.1,
+    "W_pv_nm": 12746.946,
+    "W_exposure_max_nm": 11950.199999999999,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_corning_k0p3",
+    "k_azi": 0.3,
+    "W_pv_nm": 1085.367,
+    "W_exposure_max_nm": 884.89,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_corning_k0p5",
+    "k_azi": 0.5,
+    "W_pv_nm": 1262.257,
+    "W_exposure_max_nm": 1012.85,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_corning_k0p7",
+    "k_azi": 0.7,
+    "W_pv_nm": 1668.399,
+    "W_exposure_max_nm": 1303.24,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_corning_k0p9",
+    "k_azi": 0.9,
+    "W_pv_nm": 5614.609,
+    "W_exposure_max_nm": 4646.38,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_corning_k1p0",
+    "k_azi": 1.0,
+    "W_pv_nm": 48673.53999999999,
+    "W_exposure_max_nm": 46336.6,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "glass_glass_corning_k1p1",
+    "k_azi": 1.1,
+    "W_pv_nm": 12739.493,
+    "W_exposure_max_nm": 11927.5,
+    "node_count": 49604,
+    "status": "success"
+  }
+]

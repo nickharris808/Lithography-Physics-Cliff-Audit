@@ -1,0 +1,160 @@
+** ============================================================================
+** GENESIS PATENT 1: FAB OS - SAMPLE FEA INPUT DECK (HEADER ONLY)
+** ============================================================================
+** 
+** This is a sanitized header from an actual CalculiX input deck used in the
+** Physics Cliff analysis. The full mesh coordinates are proprietary.
+**
+** Solver: CalculiX 2.21
+** Element Type: C3D20R (20-node hexahedral, reduced integration)
+** Mesh Generator: Genesis Parametric Template Engine (Jinja2)
+** 
+** ============================================================================
+
+*HEADING
+Genesis Fab OS - Azimuthal Stiffness Study
+Case: k_azi=0.65, k_edge=2.0, load=scan
+Mesh Density: n_radial=60, n_azimuthal=48
+Generated: 2026-01-15T14:23:17Z
+Template Version: parametric_chuck_v4.inp.j2
+
+** ----------------------------------------------------------------------------
+** MESH STATISTICS
+** ----------------------------------------------------------------------------
+** Total Nodes:        35,752
+** Total Elements:     28,416
+** Element Type:       C3D20R (Quadratic Hexahedral)
+** Degrees of Freedom: 107,256
+**
+** Substrate:
+**   Material:         Silicon <100>
+**   Diameter:         300 mm
+**   Thickness:        0.775 mm
+**   Young's Modulus:  130 GPa (anisotropic)
+**   Poisson's Ratio:  0.28
+**   CTE:              2.6e-6 /K
+**
+** Support Structure:
+**   Type:             Burled chuck with variable stiffness
+**   k_azi:            0.65 (Azimuthal modulation ratio)
+**   k_edge:           2.0 (Edge density factor)
+**   Spring Constant:  1.0e6 N/m (nominal)
+**
+** Thermal Load:
+**   Type:             Scan pattern (EUV slit exposure)
+**   Peak Temperature: 3.5 K above ambient
+**   Gradient:         dT/dx = 0.8 K/mm
+**
+** ----------------------------------------------------------------------------
+** NODE DEFINITIONS (Truncated - First 10 of 35,752)
+** ----------------------------------------------------------------------------
+
+*NODE, NSET=NALL
+     1,   0.000000E+00,   0.000000E+00,   0.000000E+00
+     2,   2.500000E-03,   0.000000E+00,   0.000000E+00
+     3,   5.000000E-03,   0.000000E+00,   0.000000E+00
+     4,   7.500000E-03,   0.000000E+00,   0.000000E+00
+     5,   1.000000E-02,   0.000000E+00,   0.000000E+00
+     6,   1.250000E-02,   0.000000E+00,   0.000000E+00
+     7,   1.500000E-02,   0.000000E+00,   0.000000E+00
+     8,   1.750000E-02,   0.000000E+00,   0.000000E+00
+     9,   2.000000E-02,   0.000000E+00,   0.000000E+00
+    10,   2.250000E-02,   0.000000E+00,   0.000000E+00
+** ... (35,742 nodes omitted) ...
+
+** ----------------------------------------------------------------------------
+** ELEMENT DEFINITIONS (Truncated - First 5 of 28,416)
+** ----------------------------------------------------------------------------
+
+*ELEMENT, TYPE=C3D20R, ELSET=SUBSTRATE
+     1,     1,     2,    62,    61,   601,   602,   662,   661,
+            31,    32,    91,    90,   631,   632,   691,   690,
+           301,   302,   361,   360
+     2,     2,     3,    63,    62,   602,   603,   663,   662,
+            32,    33,    92,    91,   632,   633,   692,   691,
+           302,   303,   362,   361
+** ... (28,411 elements omitted) ...
+
+** ----------------------------------------------------------------------------
+** MATERIAL PROPERTIES
+** ----------------------------------------------------------------------------
+
+*MATERIAL, NAME=SILICON_100
+*ELASTIC, TYPE=ORTHO
+** E1, E2, E3, Nu12, Nu13, Nu23, G12, G13, G23
+  1.30E+11, 1.30E+11, 1.30E+11, 0.28, 0.28, 0.064, 7.96E+10, 7.96E+10, 5.09E+10
+
+*EXPANSION, TYPE=ISO
+  2.6E-06
+
+** ----------------------------------------------------------------------------
+** BOUNDARY CONDITIONS (Azimuthally-Varying Spring Support)
+** ----------------------------------------------------------------------------
+** 
+** The support stiffness varies with angular position θ according to:
+**
+**   K(θ) = K_base × [1 + k_azi × cos(n×θ + φ)]
+**
+** Where:
+**   K_base = 1.0e6 N/m (baseline spring constant)
+**   k_azi  = 0.65 (azimuthal modulation ratio)
+**   n      = 4 (harmonic number, matching thermal eigenmode)
+**   φ      = 0 (phase offset)
+**
+** This distribution is derived from the Mode Inversion Principle:
+**
+**   K_optimal(x,y) ∝ |∇²φ(x,y)|
+**
+** Where φ is the dominant thermal deformation eigenmode.
+**
+
+*SPRING, ELSET=SUPPORT_THETA_0
+  3, 3, 1.65E+06
+*SPRING, ELSET=SUPPORT_THETA_15
+  3, 3, 1.58E+06
+*SPRING, ELSET=SUPPORT_THETA_30
+  3, 3, 1.38E+06
+*SPRING, ELSET=SUPPORT_THETA_45
+  3, 3, 1.00E+06
+*SPRING, ELSET=SUPPORT_THETA_60
+  3, 3, 6.17E+05
+*SPRING, ELSET=SUPPORT_THETA_75
+  3, 3, 4.17E+05
+*SPRING, ELSET=SUPPORT_THETA_90
+  3, 3, 3.50E+05
+** ... (pattern continues for full 360°) ...
+
+** ----------------------------------------------------------------------------
+** THERMAL LOAD (Scan Pattern)
+** ----------------------------------------------------------------------------
+
+*STEP, NLGEOM=YES
+*STATIC
+0.1, 1.0, 1.0E-06, 0.1
+
+*TEMPERATURE
+** Node, Temperature (K above ambient)
+     1,   0.00
+   100,   0.35
+   500,   1.20
+  1000,   2.10
+  2000,   3.50
+  3000,   3.20
+  4000,   2.40
+  5000,   1.50
+** ... (scan pattern interpolated across all nodes) ...
+
+*NODE FILE
+U
+
+*EL FILE
+S, E
+
+*END STEP
+
+** ============================================================================
+** END OF SANITIZED INPUT DECK
+** 
+** Full mesh data available in private data room under NDA.
+** Contact: genesis-litho-ip@proton.me
+** ============================================================================

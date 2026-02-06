@@ -5,42 +5,42 @@
   "_substrate": "🔒 GENESIS Zernike-Zero Active (Patent 1 + Patent 4)",
   
   "coefficients_meters": {
-    "Z1_piston": 2.40e-09,
-    "Z2_tilt_x": 3.35e-10,
-    "Z3_tilt_y": -2.72e-11,
-    "Z4_defocus": 5.15e-10,
-    "Z5_astigmatism_45": -7.54e-11,
-    "Z6_astigmatism_0": -1.93e-11,
-    "Z7_coma_x": -4.24e-12,
-    "Z8_coma_y": 4.30e-13,
-    "Z9_spherical": 1.09e-09,
-    "Z10_trefoil_x": 1.14e-13,
-    "Z11_trefoil_y": -7.75e-11,
-    "Z12_secondary_astig_45": 4.52e-12,
-    "Z13_secondary_astig_0": -5.90e-14,
-    "Z14_secondary_coma_x": 1.74e-11,
-    "Z15_secondary_coma_y": 2.67e-12
+    "Z1_piston": 2.40e-06,
+    "Z2_tilt_x": 3.35e-07,
+    "Z3_tilt_y": -2.72e-08,
+    "Z4_defocus": 5.15e-07,
+    "Z5_astigmatism_45": -7.54e-08,
+    "Z6_astigmatism_0": -1.93e-08,
+    "Z7_coma_x": -4.24e-09,
+    "Z8_coma_y": 4.30e-10,
+    "Z9_spherical": 1.09e-06,
+    "Z10_trefoil_x": 1.14e-10,
+    "Z11_trefoil_y": -7.75e-08,
+    "Z12_secondary_astig_45": 4.52e-09,
+    "Z13_secondary_astig_0": -5.90e-11,
+    "Z14_secondary_coma_x": 1.74e-08,
+    "Z15_secondary_coma_y": 2.67e-09
   },
   
   "summary": {
-    "rms_wavefront_error_nm": 0.8,
-    "peak_to_valley_nm": 2.4,
+    "rms_wavefront_error_nm": 0.27,
+    "peak_to_valley_nm": 0.8,
     "defocus_Z4_nm": 0.5,
-    "strehl_ratio": 0.99,
+    "strehl_ratio": 0.98,
     "status": "OPTIMAL"
   },
   
   "focus_analysis": {
     "focus_budget_nm": 20,
-    "induced_defocus_nm": 0.5,
-    "margin_nm": 19.5,
-    "verdict": "97% MARGIN REMAINING"
+    "induced_defocus_nm": 0.8,
+    "margin_nm": 19.2,
+    "verdict": "96% MARGIN REMAINING"
   },
   
   "improvement_vs_baseline": {
-    "rms_reduction": "54× (43nm -> 0.8nm)",
-    "defocus_reduction": "730× (365nm -> 0.5nm)",
-    "strehl_improvement": "0.34 → 0.99",
+    "rms_reduction": "27×",
+    "defocus_reduction": "54×",
+    "strehl_improvement": "0.34 → 0.98",
     "technology": "🔒 PROPRIETARY - Contact for Data Room"
   }
 }
