@@ -1,3 +1,47 @@
-{
-  "cases": []
-}
+[
+  {
+    "W_exposure_max_nm": 430.45500000000004,
+    "W_pv_nm": 765.465,
+    "node_count": 31408,
+    "k_azi": 0.0,
+    "case_id": "w450mm_k0p0",
+    "radius": 0.45,
+    "task_id": "dmxpgowbv6axopyir55ur5o5r"
+  },
+  {
+    "W_exposure_max_nm": 499.207,
+    "W_pv_nm": 921.962,
+    "node_count": 31408,
+    "k_azi": 0.5,
+    "case_id": "w450mm_k0p5",
+    "radius": 0.45,
+    "task_id": "rg33j9qjwafnbz583tqta7dxi"
+  },
+  {
+    "W_exposure_max_nm": 587.221,
+    "W_pv_nm": 1056.5069999999998,
+    "node_count": 31408,
+    "k_azi": 0.8,
+    "case_id": "w450mm_k0p8",
+    "radius": 0.45,
+    "task_id": "9i6wcf2yqpz806gqmx07vnknt"
+  },
+  {
+    "W_exposure_max_nm": 969.9710000000001,
+    "W_pv_nm": 1651.28,
+    "node_count": 31408,
+    "k_azi": 1.0,
+    "case_id": "w450mm_k1p0",
+    "radius": 0.45,
+    "task_id": "7jmqtdxxyo5ekohs6wf6z57cz"
+  },
+  {
+    "W_exposure_max_nm": 492.41900000000004,
+    "W_pv_nm": 978.7879999999999,
+    "node_count": 31408,
+    "k_azi": 1.5,
+    "case_id": "w450mm_k1p5",
+    "radius": 0.45,
+    "task_id": "nr48xy331hyrbuogyockhjaow"
+  }
+]

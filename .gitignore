@@ -34,3 +34,4 @@ results/*.txt
 *.key
 credentials.json
 .env
+local_runs/
