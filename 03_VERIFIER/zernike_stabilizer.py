@@ -111,6 +111,12 @@ def calculate_passive_substrate(power_watts: float) -> Dict:
     """
     Calculate Zernike coefficients for passive ULE substrate.
     
+    DISCLAIMER: This function uses coefficients extracted from the FEA-derived
+    Zernike decomposition stored in 04_DATA/zernike_baseline.json and scales
+    them linearly with power. The baseline values at 500W are verified against
+    the JSON source file. This is an analytical scaling model, not a live FEA
+    solver. For independent verification, inspect the JSON files directly.
+    
     Based on verified FEA simulations (Patent 1 data).
     At 500W, the substrate exceeds focus budget.
     """
@@ -176,6 +182,12 @@ def calculate_passive_substrate(power_watts: float) -> Dict:
 def calculate_genesis_substrate(power_watts: float) -> Dict:
     """
     Calculate Zernike coefficients for Genesis Zernike-Zero active substrate.
+    
+    DISCLAIMER: This function uses coefficients extracted from the FEA-derived
+    Zernike decomposition stored in 04_DATA/zernike_genesis_stabilized.json and
+    scales them linearly with power. The 54x reduction factor and baseline
+    values at 500W are verified against the JSON source file. This is an
+    analytical scaling model, not a live control system simulation.
     
     The Genesis system:
     1. Maintains k_azi = 0.50 via azimuthal stiffness modulation (Patent 1)

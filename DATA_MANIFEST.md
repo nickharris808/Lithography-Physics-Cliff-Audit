@@ -27,7 +27,7 @@ sha256sum -c ../DATA_MANIFEST.sha256
 | `multilayer_stacks_FINAL.json` | 18 | `1e56f8144fa44f6d249bee1d6cc24254229537ecd1f3429790530a1f2e2b0672` | Multilayer Stack Analysis |
 | `kazi_crossload_expanded.json` | 36 | `39f82debe83bcebb3d82258ceba43fed04271e38d9187579b67a5cae1ce5bc5b` | Cross-loading Study |
 | `mesh_convergence_summary.json` | — | `d25737a8fdc718025f34709cc0539494b3772d27b9203434b750d2bc2c13defe` | Mesh Convergence Metadata |
-| `wafer450mm_sweep_FINAL.json` | 0 | `43038261561c54f348ca823a73dd46bd4dd49675a6d6390ee4aaf9d96a30502a` | 450mm Study (incomplete) |
+| `wafer450mm_sweep_FINAL.json` | 0 | `43038261561c54f348ca823a73dd46bd4dd49675a6d6390ee4aaf9d96a30502a` | 450mm Study (data collection incomplete — excluded from analysis) |
 
 **Total Verified Cases:** 511+ FEA simulations
 

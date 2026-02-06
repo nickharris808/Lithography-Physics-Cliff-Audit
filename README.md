@@ -722,10 +722,10 @@ The projected NXE:4000 Hyper-NA system would operate **above the Physics Cliff**
 | Variance Factor | 8.2× | 1.0× | **8×** |
 
 <p align="center">
-  <img src="figures/demo_passive.gif" alt="Genesis Correction" width="600"/>
+  <img src="figures/demo_passive.gif" alt="Passive Substrate Deformation" width="600"/>
 </p>
 
-<p align="center"><strong>Figure 15:</strong> Animation showing Genesis active substrate correcting thermal deformation in real-time. The warpage is reduced from 43 nm to 0.8 nm.</p>
+<p align="center"><strong>Figure 15:</strong> Animation showing passive substrate thermal deformation under EUV scan-pattern load. Without active correction, the warpage exceeds the focus budget.</p>
 
 ---
 
@@ -856,14 +856,18 @@ Lithography-Physics-Cliff-Audit/
 │   ├── zeiss_smt_mirror.json              # Mirror assembly
 │   └── canon_fpa9000.json                 # Nanoimprint comparison
 │
-└── figures/                               # 62 visualization files
+└── figures/                               # 43 technical visualization files
     ├── kazi_sensitivity_heatmap.png       # Main cliff visualization
-    ├── deformation_mode_3d.gif            # 3D animation
-    ├── phase_cliff.png                    # Phase transition
-    ├── design_around_desert.png           # Design impossibility
+    ├── deformation_mode_3d.gif            # 3D deformation animation
+    ├── phase_cliff.png                    # Phase transition diagram
+    ├── design_around_desert.png           # Design-around impossibility
+    ├── kazi_mesh_convergence.png          # Mesh convergence study
+    ├── kazi_mc_stable_hist.png            # Stable zone histogram
+    ├── glass_cliff_comparison.png         # Material comparison
+    ├── rom_kazi_feature_importance.png    # Feature importance (k_azi=42%)
     ├── zernike_comparison.png             # Aberration comparison
-    ├── ... (57 more figures)
-    └── demo_passive.gif                   # Genesis correction demo
+    ├── focus_drift_vs_power.png           # Focus drift analysis
+    └── ... (33 more technical figures)
 ```
 
 ---
@@ -965,25 +969,25 @@ This technology is **essential for the semiconductor roadmap** beyond 2nm nodes.
 
 ## 16. References
 
-1. **van Schoot, J., et al.** (2020). "High-NA EUV Lithography: Pushing the Limits of Resolution." *Proc. SPIE 11323*, Extreme Ultraviolet (EUV) Lithography XI.
+1. **van Schoot, J., van Setten, E., Troost, K., et al.** (2020). "High-NA EUV lithography exposure tool: program progress." *Proc. SPIE 11323*, Extreme Ultraviolet (EUV) Lithography XI, 1132307. doi:10.1117/12.2572932
 
-2. **Bakshi, V.** (2018). *EUV Lithography*, 2nd Edition. SPIE Press.
+2. **Bakshi, V.** (Ed.) (2018). *EUV Lithography*, 2nd Edition. SPIE Press, PM283. ISBN: 978-1-5106-1678-3
 
-3. **Malacara, D.** (2007). *Optical Shop Testing*, 3rd Edition. Wiley.
+3. **Malacara, D.** (2007). *Optical Shop Testing*, 3rd Edition. John Wiley & Sons, Hoboken, NJ. ISBN: 978-0-471-48404-2
 
-4. **Hopkins, H.H.** (1950). *Wave Theory of Aberrations*. Oxford University Press.
+4. **Hopkins, H.H.** (1950). *Wave Theory of Aberrations*. Clarendon Press, Oxford. 167 pp.
 
-5. **Zuber, N.** (1959). "Eigenmode Analysis of Circular Plates with Non-Uniform Support." *J. Applied Mechanics* 26(3): 412-420.
+5. **Leissa, A.W.** (1969). *Vibration of Plates*. NASA SP-160. U.S. Government Printing Office, Washington, DC. 353 pp. Available: https://ntrs.nasa.gov/citations/19700009156
 
-6. **ASML Holding N.V.** (2023). *TWINSCAN NXE:3800E Technical Specifications*. Product Documentation.
+6. **Corning Inc.** (2016). *ULE® Corning Code 7972 Ultra Low Expansion Glass Product Information*. Available: https://www.corning.com/media/worldwide/csm/documents/7972%20ULE%20Product%20Information%20Jan%202016.pdf
 
-7. **Corning Inc.** (2022). *ULE Zero Expansion Glass Properties*. Material Datasheet.
+7. **SEMI MF1390.** *Test Method for Measuring Bow and Warp on Silicon Wafers by Automated Noncontact Scanning*. SEMI International Standards.
 
-8. **SEMI Standard E49** (2021). *Wafer Bow, Warp, and Flatness Measurement*.
+8. **Wischmeyer, T., et al.** (2020). "High-NA EUV lithography optics becomes reality." *Proc. SPIE 11323*, 1132308. doi:10.1117/12.2555503
 
-9. **Intel Corporation** (2024). "Process Technology Roadmap: 2nm and Beyond." *Intel Technology Symposium*.
+9. **Hsu, S., et al.** (2024). "High-power EUV light sources (>500W) for high throughput in next-generation EUV lithography tools." *Proc. SPIE 12953*, 12953-0V.
 
-10. **Zhang, W., et al.** (2023). "Thermal Management Challenges in High-NA EUV." *J. Micro/Nanolithography MEMS MOEMS* 22(1): 013401.
+10. **Kuerz, P., et al.** (2024). "EUV optics at ZEISS: status, outlook, and future." *Proc. SPIE 12953*, 12953-0Q.
 
 ---
 

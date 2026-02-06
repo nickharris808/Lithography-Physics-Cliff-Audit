@@ -192,9 +192,23 @@ def calculate_variance_factor(k_azi: float) -> float:
     """
     Calculate the variance amplification factor based on stiffness ratio.
     
-    This implements the "Physics Cliff" - the 122× explosion at k_azi > 0.81.
+    IMPORTANT DISCLAIMER:
+    ---------------------
+    This function uses a FITTED ANALYTICAL MODEL derived from the raw FEA
+    simulation data in 04_DATA/raw/. It is NOT a first-principles physics
+    solver. The piecewise formula below was curve-fitted to match the
+    variance trend observed across 511+ CalculiX FEA simulations.
+    
+    To verify the underlying data independently, run:
+        python3 scripts/analyze_raw_data.py
+    
+    This will compute CV and variance ratios directly from the raw JSON
+    simulation results, confirming the 122× cliff without relying on
+    this analytical approximation.
     
     Based on eigenmode stability analysis (Patent 1).
+    See: 04_DATA/raw/kazi_mc_stable_v3.json (100 cases, CV=1.37%)
+    See: 04_DATA/raw/kazi_boundary_mc.json (21 cases, CV=170%)
     """
     if k_azi < 0.65:
         # Stable region - linear scaling
