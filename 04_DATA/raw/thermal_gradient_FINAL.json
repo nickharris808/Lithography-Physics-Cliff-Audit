@@ -1,0 +1,102 @@
+[
+  {
+    "W_exposure_max_nm": 448.956,
+    "W_pv_nm": 853.572,
+    "node_count": 17684,
+    "load": "edge_ring",
+    "k_azi": 0.0,
+    "case_id": "grad_edge_ring_k0p0",
+    "task_id": "8rg6tdfv5oegs0xpw3050uc1x",
+    "case_dir": "work_dir/thermal_gradient/grad_edge_ring_k0p0"
+  },
+  {
+    "W_exposure_max_nm": 538.7040000000001,
+    "W_pv_nm": 1012.122,
+    "node_count": 17684,
+    "load": "edge_ring",
+    "k_azi": 0.5,
+    "case_id": "grad_edge_ring_k0p5",
+    "task_id": "saa0323u3j5cjy59uwqy82322",
+    "case_dir": "work_dir/thermal_gradient/grad_edge_ring_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 623.659,
+    "W_pv_nm": 1209.853,
+    "node_count": 17684,
+    "load": "edge_ring",
+    "k_azi": 0.8,
+    "case_id": "grad_edge_ring_k0p8",
+    "task_id": "po3a06bj2udtdg2owwidnjosa",
+    "case_dir": "work_dir/thermal_gradient/grad_edge_ring_k0p8"
+  },
+  {
+    "W_exposure_max_nm": 737.23,
+    "W_pv_nm": 1424.637,
+    "node_count": 17684,
+    "load": "edge_ring",
+    "k_azi": 1.0,
+    "case_id": "grad_edge_ring_k1p0",
+    "task_id": "jujyv3yc7eoj8ooahh2hjx7ft",
+    "case_dir": "work_dir/thermal_gradient/grad_edge_ring_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 565.408,
+    "W_pv_nm": 1094.79,
+    "node_count": 17684,
+    "load": "edge_ring",
+    "k_azi": 1.5,
+    "case_id": "grad_edge_ring_k1p5",
+    "task_id": "9ccyrqkpcuugd81bhfkaykdic",
+    "case_dir": "work_dir/thermal_gradient/grad_edge_ring_k1p5"
+  },
+  {
+    "W_exposure_max_nm": 442.593,
+    "W_pv_nm": 843.051,
+    "node_count": 17684,
+    "load": "hotspot",
+    "k_azi": 0.0,
+    "case_id": "grad_hotspot_k0p0",
+    "task_id": "m0unhywoqcbpzyartdgxtadcm",
+    "case_dir": "work_dir/thermal_gradient/grad_hotspot_k0p0"
+  },
+  {
+    "W_exposure_max_nm": 532.95,
+    "W_pv_nm": 1001.6450000000001,
+    "node_count": 17684,
+    "load": "hotspot",
+    "k_azi": 0.5,
+    "case_id": "grad_hotspot_k0p5",
+    "task_id": "fw9bajobpbindsqe2x83ftbdq",
+    "case_dir": "work_dir/thermal_gradient/grad_hotspot_k0p5"
+  },
+  {
+    "W_exposure_max_nm": 616.7919999999999,
+    "W_pv_nm": 1197.1399999999999,
+    "node_count": 17684,
+    "load": "hotspot",
+    "k_azi": 0.8,
+    "case_id": "grad_hotspot_k0p8",
+    "task_id": "j0vfcjx9po261gj5fufn0qm7v",
+    "case_dir": "work_dir/thermal_gradient/grad_hotspot_k0p8"
+  },
+  {
+    "W_exposure_max_nm": 729.079,
+    "W_pv_nm": 1409.516,
+    "node_count": 17684,
+    "load": "hotspot",
+    "k_azi": 1.0,
+    "case_id": "grad_hotspot_k1p0",
+    "task_id": "dt4itkdth7ypspmr23jgwgut9",
+    "case_dir": "work_dir/thermal_gradient/grad_hotspot_k1p0"
+  },
+  {
+    "W_exposure_max_nm": 558.001,
+    "W_pv_nm": 1082.096,
+    "node_count": 17684,
+    "load": "hotspot",
+    "k_azi": 1.5,
+    "case_id": "grad_hotspot_k1p5",
+    "task_id": "gz96sxjg0q0usm9fyp5dwr75p",
+    "case_dir": "work_dir/thermal_gradient/grad_hotspot_k1p5"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "case_id": "trans_single_pulse_k0p3",
+    "k_azi": 0.3,
+    "pulse_type": "single_pulse",
+    "W_pv_nm": 44.719114999999995,
+    "W_exposure_max_nm": 44.5714,
+    "node_count": 49604,
+    "status": "success"
+  },
+  {
+    "case_id": "trans_multi_pulse_k0p3",
+    "k_azi": 0.3,
+    "pulse_type": "multi_pulse",
+    "status": "executer-terminated-by-user"
+  },
+  {
+    "case_id": "trans_ramp_k0p3",
+    "k_azi": 0.3,
+    "pulse_type": "ramp",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_single_pulse_k0p5",
+    "k_azi": 0.5,
+    "pulse_type": "single_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_multi_pulse_k0p5",
+    "k_azi": 0.5,
+    "pulse_type": "multi_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_ramp_k0p5",
+    "k_azi": 0.5,
+    "pulse_type": "ramp",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_single_pulse_k0p7",
+    "k_azi": 0.7,
+    "pulse_type": "single_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_multi_pulse_k0p7",
+    "k_azi": 0.7,
+    "pulse_type": "multi_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_ramp_k0p7",
+    "k_azi": 0.7,
+    "pulse_type": "ramp",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_single_pulse_k0p9",
+    "k_azi": 0.9,
+    "pulse_type": "single_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_multi_pulse_k0p9",
+    "k_azi": 0.9,
+    "pulse_type": "multi_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_ramp_k0p9",
+    "k_azi": 0.9,
+    "pulse_type": "ramp",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_single_pulse_k1p0",
+    "k_azi": 1.0,
+    "pulse_type": "single_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_multi_pulse_k1p0",
+    "k_azi": 1.0,
+    "pulse_type": "multi_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_ramp_k1p0",
+    "k_azi": 1.0,
+    "pulse_type": "ramp",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_single_pulse_k1p1",
+    "k_azi": 1.1,
+    "pulse_type": "single_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_multi_pulse_k1p1",
+    "k_azi": 1.1,
+    "pulse_type": "multi_pulse",
+    "status": "zombie"
+  },
+  {
+    "case_id": "trans_ramp_k1p1",
+    "k_azi": 1.1,
+    "pulse_type": "ramp",
+    "status": "zombie"
+  }
+]

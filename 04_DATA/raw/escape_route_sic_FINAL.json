@@ -1,0 +1,156 @@
+[
+  {
+    "case_id": "sic_k0.0_scan",
+    "k_azi": 0.0,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 936.992,
+    "W_exposure_max_nm": 485.743,
+    "task_id": "imteof9e1vbtxhtn8pmmuiten",
+    "case_dir": "work_dir/escape_route/sic_k0.0_scan"
+  },
+  {
+    "case_id": "sic_k0.0_gradient_z",
+    "k_azi": 0.0,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 917.5029999999999,
+    "W_exposure_max_nm": 474.029,
+    "task_id": "g250vvm1id8es376vv7miyh5b",
+    "case_dir": "work_dir/escape_route/sic_k0.0_gradient_z"
+  },
+  {
+    "case_id": "sic_k0.3_scan",
+    "k_azi": 0.3,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1048.56,
+    "W_exposure_max_nm": 551.572,
+    "task_id": "55uutvvn2xjqx127138rrz6s9",
+    "case_dir": "work_dir/escape_route/sic_k0.3_scan"
+  },
+  {
+    "case_id": "sic_k0.3_gradient_z",
+    "k_azi": 0.3,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1024.388,
+    "W_exposure_max_nm": 537.021,
+    "task_id": "0fwr13x5r5wkn1sa9ah44sszc",
+    "case_dir": "work_dir/escape_route/sic_k0.3_gradient_z"
+  },
+  {
+    "case_id": "sic_k0.5_scan",
+    "k_azi": 0.5,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1074.544,
+    "W_exposure_max_nm": 559.1600000000001,
+    "task_id": "h8ip3yq0t2c3e6r2wdmqb5p4b",
+    "case_dir": "work_dir/escape_route/sic_k0.5_scan"
+  },
+  {
+    "case_id": "sic_k0.5_gradient_z",
+    "k_azi": 0.5,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1053.3410000000001,
+    "W_exposure_max_nm": 546.854,
+    "task_id": "0rejd4e0kwyhr45psxu4j0rad",
+    "case_dir": "work_dir/escape_route/sic_k0.5_gradient_z"
+  },
+  {
+    "case_id": "sic_k0.7_scan",
+    "k_azi": 0.7,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1253.155,
+    "W_exposure_max_nm": 641.161,
+    "task_id": "fiqbb3netrxhx8iyrnuovkhqc",
+    "case_dir": "work_dir/escape_route/sic_k0.7_scan"
+  },
+  {
+    "case_id": "sic_k0.7_gradient_z",
+    "k_azi": 0.7,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1227.6630000000002,
+    "W_exposure_max_nm": 622.808,
+    "task_id": "dxvr839qe49n3x5cnqukhbwdg",
+    "case_dir": "work_dir/escape_route/sic_k0.7_gradient_z"
+  },
+  {
+    "case_id": "sic_k0.9_scan",
+    "k_azi": 0.9,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1393.366,
+    "W_exposure_max_nm": 713.769,
+    "task_id": "e48esm7e5cp51mgq5kiz8xygh",
+    "case_dir": "work_dir/escape_route/sic_k0.9_scan"
+  },
+  {
+    "case_id": "sic_k0.9_gradient_z",
+    "k_azi": 0.9,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1374.67,
+    "W_exposure_max_nm": 714.604,
+    "task_id": "px8n5p5pixeaspn3nkhd5ze3k",
+    "case_dir": "work_dir/escape_route/sic_k0.9_gradient_z"
+  },
+  {
+    "case_id": "sic_k1.1_scan",
+    "k_azi": 1.1,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1179.695,
+    "W_exposure_max_nm": 666.068,
+    "task_id": "3xcanjfiysfrxve1n1d8fhv1y",
+    "case_dir": "work_dir/escape_route/sic_k1.1_scan"
+  },
+  {
+    "case_id": "sic_k1.1_gradient_z",
+    "k_azi": 1.1,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1158.512,
+    "W_exposure_max_nm": 653.002,
+    "task_id": "kpfhyoxk6fcyf5wqk9s3g3ktw",
+    "case_dir": "work_dir/escape_route/sic_k1.1_gradient_z"
+  },
+  {
+    "case_id": "sic_k1.3_scan",
+    "k_azi": 1.3,
+    "load": "scan",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1157.358,
+    "W_exposure_max_nm": 597.106,
+    "task_id": "npg6wsj97ncuftrb41xni3xak",
+    "case_dir": "work_dir/escape_route/sic_k1.3_scan"
+  },
+  {
+    "case_id": "sic_k1.3_gradient_z",
+    "k_azi": 1.3,
+    "load": "gradient_z",
+    "material": "sic",
+    "thermal_bc": "adiabatic",
+    "W_pv_nm": 1135.441,
+    "W_exposure_max_nm": 587.0070000000001,
+    "task_id": "th95fj7hvc0q4kx8ahnw4rh1z",
+    "case_dir": "work_dir/escape_route/sic_k1.3_gradient_z"
+  }
+]

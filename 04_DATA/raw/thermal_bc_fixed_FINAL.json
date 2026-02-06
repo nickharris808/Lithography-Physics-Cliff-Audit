@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "tbc_adiabatic_k0.3",
+    "thermal_bc": "adiabatic",
+    "k_azi": 0.3,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "463ub8p7e2e8pzt3zsjpf7fqu",
+    "status": "submitted",
+    "W_exposure_max_nm": 722.169,
+    "W_pv_nm": 1408.428,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_adiabatic_k0.5",
+    "thermal_bc": "adiabatic",
+    "k_azi": 0.5,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "8ukwaordrjfd76f0efcq1wa3e",
+    "status": "submitted",
+    "W_exposure_max_nm": 774.568,
+    "W_pv_nm": 1489.669,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_adiabatic_k0.7",
+    "thermal_bc": "adiabatic",
+    "k_azi": 0.7,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "1dp3h1aabm24qodzs9p8zcske",
+    "status": "submitted",
+    "W_exposure_max_nm": 800.535,
+    "W_pv_nm": 1597.8990000000001,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_adiabatic_k0.9",
+    "thermal_bc": "adiabatic",
+    "k_azi": 0.9,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "c0o3c006bd92v023gumio7m4x",
+    "status": "submitted",
+    "W_exposure_max_nm": 906.882,
+    "W_pv_nm": 1785.6829999999998,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_adiabatic_k1.1",
+    "thermal_bc": "adiabatic",
+    "k_azi": 1.1,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "nrm39fmsqo83aujdvy1j9i2xy",
+    "status": "submitted",
+    "W_exposure_max_nm": 888.762,
+    "W_pv_nm": 1554.0849999999998,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_isothermal_chuck_k0.3",
+    "thermal_bc": "isothermal_chuck",
+    "k_azi": 0.3,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "cq2gdcjxka3xh356wmycn6m09",
+    "status": "submitted",
+    "W_exposure_max_nm": 722.169,
+    "W_pv_nm": 1408.428,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_isothermal_chuck_k0.5",
+    "thermal_bc": "isothermal_chuck",
+    "k_azi": 0.5,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "nwcv5dgtjdxssvrggafyx5zca",
+    "status": "submitted",
+    "W_exposure_max_nm": 774.568,
+    "W_pv_nm": 1489.669,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_isothermal_chuck_k0.7",
+    "thermal_bc": "isothermal_chuck",
+    "k_azi": 0.7,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "7dxx12di3unggxipcybxosahm",
+    "status": "submitted",
+    "W_exposure_max_nm": 800.535,
+    "W_pv_nm": 1597.8990000000001,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_isothermal_chuck_k0.9",
+    "thermal_bc": "isothermal_chuck",
+    "k_azi": 0.9,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "ddtin4vn4roqbtaw6ngae8q5y",
+    "status": "submitted",
+    "W_exposure_max_nm": 906.882,
+    "W_pv_nm": 1785.6829999999998,
+    "node_count": 49604
+  },
+  {
+    "case_id": "tbc_isothermal_chuck_k1.1",
+    "thermal_bc": "isothermal_chuck",
+    "k_azi": 1.1,
+    "load": "scan",
+    "n_radial": 50,
+    "task_id": "2x4yw4onqeann3rafmn061hhr",
+    "status": "submitted",
+    "W_exposure_max_nm": 888.762,
+    "W_pv_nm": 1554.0849999999998,
+    "node_count": 49604
+  }
+]

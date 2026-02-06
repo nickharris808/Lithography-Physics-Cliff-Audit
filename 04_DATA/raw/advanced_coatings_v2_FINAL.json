@@ -1,0 +1,202 @@
+[
+  {
+    "case_id": "coat_thick_oxide_kazi0p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_oxide_kazi0p0",
+    "coating": "thick_oxide",
+    "k_azi": 0.0,
+    "task_id": "7wk8c6fmtbuan2vrc065g6gv1",
+    "W_pv_nm": 75.4112,
+    "W_exposure_max_nm": 49.6991,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_oxide_kazi0p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_oxide_kazi0p5",
+    "coating": "thick_oxide",
+    "k_azi": 0.5,
+    "task_id": "djfckpg2dqp7e3uhnovhqtnkx",
+    "W_pv_nm": 70.89290000000001,
+    "W_exposure_max_nm": 39.2873,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_oxide_kazi1p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_oxide_kazi1p0",
+    "coating": "thick_oxide",
+    "k_azi": 1.0,
+    "task_id": "8zmpo1vp0y4jojms9775b27pv",
+    "W_pv_nm": 767.3015,
+    "W_exposure_max_nm": 720.905,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_oxide_kazi1p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_oxide_kazi1p5",
+    "coating": "thick_oxide",
+    "k_azi": 1.5,
+    "task_id": "58380cyohy4h44aqr5h4hsteb",
+    "W_pv_nm": 63.271899999999995,
+    "W_exposure_max_nm": 31.880700000000004,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_oxide_kazi2p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_oxide_kazi2p0",
+    "coating": "thick_oxide",
+    "k_azi": 2.0,
+    "task_id": "2kfotgt7wbaveyj1xwgpaoko5",
+    "W_pv_nm": 66.46520000000001,
+    "W_exposure_max_nm": 37.7539,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_resist_kazi0p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_resist_kazi0p0",
+    "coating": "thick_resist",
+    "k_azi": 0.0,
+    "task_id": "fhbssrzks3fnghescrgxiiraf",
+    "W_pv_nm": 2523.98,
+    "W_exposure_max_nm": 1450.58,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_resist_kazi0p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_resist_kazi0p5",
+    "coating": "thick_resist",
+    "k_azi": 0.5,
+    "task_id": "iao47565085314qok4x8i9cme",
+    "W_pv_nm": 3107.94,
+    "W_exposure_max_nm": 2037.43,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_resist_kazi1p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_resist_kazi1p0",
+    "coating": "thick_resist",
+    "k_azi": 1.0,
+    "task_id": "jwgefrxtm1ba7knt99n5p0pns",
+    "W_pv_nm": 80284.74,
+    "W_exposure_max_nm": 75705.1,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_resist_kazi1p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_resist_kazi1p5",
+    "coating": "thick_resist",
+    "k_azi": 1.5,
+    "task_id": "ajjmpurq51k1axsq60nvcuhi6",
+    "W_pv_nm": 4305.34,
+    "W_exposure_max_nm": 3234.65,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_thick_resist_kazi2p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_thick_resist_kazi2p0",
+    "coating": "thick_resist",
+    "k_azi": 2.0,
+    "task_id": "1ep259ps6w1rxo6qbjo4mqz9f",
+    "W_pv_nm": 3160.931,
+    "W_exposure_max_nm": 2442.8199999999997,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_hardmask_stack_kazi0p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_hardmask_stack_kazi0p0",
+    "coating": "hardmask_stack",
+    "k_azi": 0.0,
+    "task_id": "hd8em6ecfn0ghzoapd3tw7gqb",
+    "W_pv_nm": 75.4112,
+    "W_exposure_max_nm": 49.6991,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_hardmask_stack_kazi0p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_hardmask_stack_kazi0p5",
+    "coating": "hardmask_stack",
+    "k_azi": 0.5,
+    "task_id": "nd3kznq5bxou95bofz0u9qj8n",
+    "W_pv_nm": 70.89290000000001,
+    "W_exposure_max_nm": 39.2873,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_hardmask_stack_kazi1p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_hardmask_stack_kazi1p0",
+    "coating": "hardmask_stack",
+    "k_azi": 1.0,
+    "task_id": "q4y0nsji1mo5x7mxxxt2md24o",
+    "W_pv_nm": 767.3015,
+    "W_exposure_max_nm": 720.905,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_hardmask_stack_kazi1p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_hardmask_stack_kazi1p5",
+    "coating": "hardmask_stack",
+    "k_azi": 1.5,
+    "task_id": "5dtgo3hy9faxfz5ddv34smc0p",
+    "W_pv_nm": 63.271899999999995,
+    "W_exposure_max_nm": 31.880700000000004,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_hardmask_stack_kazi2p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_hardmask_stack_kazi2p0",
+    "coating": "hardmask_stack",
+    "k_azi": 2.0,
+    "task_id": "bm83cfx1cgo9r94zz26eyjrft",
+    "W_pv_nm": 66.46520000000001,
+    "W_exposure_max_nm": 37.7539,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_double_stack_kazi0p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_double_stack_kazi0p0",
+    "coating": "double_stack",
+    "k_azi": 0.0,
+    "task_id": "7i461qkferpwxg5zs9zz5w133",
+    "W_pv_nm": 75.4112,
+    "W_exposure_max_nm": 49.6991,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_double_stack_kazi0p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_double_stack_kazi0p5",
+    "coating": "double_stack",
+    "k_azi": 0.5,
+    "task_id": "kesrr33yjg3q9nhji8fnb6cmm",
+    "W_pv_nm": 70.89290000000001,
+    "W_exposure_max_nm": 39.2873,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_double_stack_kazi1p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_double_stack_kazi1p0",
+    "coating": "double_stack",
+    "k_azi": 1.0,
+    "task_id": "6xrshxciuwpvsmwxfoq666d2v",
+    "W_pv_nm": 767.3015,
+    "W_exposure_max_nm": 720.905,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_double_stack_kazi1p5",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_double_stack_kazi1p5",
+    "coating": "double_stack",
+    "k_azi": 1.5,
+    "task_id": "1ygnb5o72pz8245tdzogkrsg4",
+    "W_pv_nm": 63.271899999999995,
+    "W_exposure_max_nm": 31.880700000000004,
+    "status": "success"
+  },
+  {
+    "case_id": "coat_double_stack_kazi2p0",
+    "case_dir": "work_dir/advanced_coatings_v2/coat_double_stack_kazi2p0",
+    "coating": "double_stack",
+    "k_azi": 2.0,
+    "task_id": "8ua2e4hzr2kupu9mcf0dj8thr",
+    "W_pv_nm": 66.46520000000001,
+    "W_exposure_max_nm": 37.7539,
+    "status": "success"
+  }
+]

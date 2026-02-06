@@ -1,0 +1,112 @@
+[
+  {
+    "k_azi": 0.0,
+    "frequencies_hz": [
+      0.02161362,
+      3642.369,
+      4818.277,
+      11519.53,
+      11628.53,
+      11702.87,
+      11719.4,
+      11778.47,
+      11848.1,
+      11961.51
+    ],
+    "f1_hz": 0.02161362,
+    "f_mean_hz": 9061.907761362,
+    "task_id": "tkfzrw2zw073g90gfr1yycor1",
+    "f1_rigid_body_hz": 0.02161362,
+    "f1_real_hz": 3642.369,
+    "f2_real_hz": 4818.277,
+    "note": "f1_hz is rigid body mode; f1_real_hz is first structural mode"
+  },
+  {
+    "k_azi": 0.5,
+    "frequencies_hz": [
+      0.02175226,
+      3642.571,
+      4817.074,
+      8343.383,
+      8498.814,
+      8834.919,
+      8865.625,
+      9174.191,
+      9190.782,
+      9375.584
+    ],
+    "f1_hz": 0.02175226,
+    "f_mean_hz": 7074.2964752259995,
+    "task_id": "eahxts3rgz3y7q49azek2se30",
+    "f1_rigid_body_hz": 0.02175226,
+    "f1_real_hz": 3642.571,
+    "f2_real_hz": 4817.074,
+    "note": "f1_hz is rigid body mode; f1_real_hz is first structural mode"
+  },
+  {
+    "k_azi": 1.0,
+    "frequencies_hz": [
+      0.02176809,
+      532.4746,
+      1083.534,
+      1424.25,
+      1902.947,
+      2471.443,
+      2653.852,
+      2721.029,
+      2864.003,
+      2923.441
+    ],
+    "f1_hz": 0.02176809,
+    "f_mean_hz": 1857.699536809,
+    "task_id": "h3rk1zwwc557sbf228p3cvhz6",
+    "f1_rigid_body_hz": 0.02176809,
+    "f1_real_hz": 532.4746,
+    "f2_real_hz": 1083.534,
+    "note": "f1_hz is rigid body mode; f1_real_hz is first structural mode"
+  },
+  {
+    "k_azi": 1.5,
+    "frequencies_hz": [
+      0.0216379,
+      1994.21,
+      2293.868,
+      3529.827,
+      3642.992,
+      3670.247,
+      4223.255,
+      4263.813,
+      4471.171,
+      4817.761
+    ],
+    "f1_hz": 0.0216379,
+    "f_mean_hz": 3290.71656379,
+    "task_id": "j71ippqhvyndaj7z0jp1pgnw2",
+    "f1_rigid_body_hz": 0.0216379,
+    "f1_real_hz": 1994.21,
+    "f2_real_hz": 2293.868,
+    "note": "f1_hz is rigid body mode; f1_real_hz is first structural mode"
+  },
+  {
+    "k_azi": 2.0,
+    "frequencies_hz": [
+      0.02193174,
+      2757.545,
+      3219.591,
+      3642.278,
+      4275.668,
+      4818.109,
+      4992.826,
+      4993.255,
+      5421.895,
+      5644.83
+    ],
+    "f1_hz": 0.02193174,
+    "f_mean_hz": 3976.601893174001,
+    "task_id": "139gxef0j2sroyrdb75x41ycm",
+    "f1_rigid_body_hz": 0.02193174,
+    "f1_real_hz": 2757.545,
+    "f2_real_hz": 3219.591,
+    "note": "f1_hz is rigid body mode; f1_real_hz is first structural mode"
+  }
+]
